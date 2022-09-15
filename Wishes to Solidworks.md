@@ -4,10 +4,15 @@
 
 With the Solidworks Makers license, which learning material am I entitled to?
 
-The "MySolidWorks Account" page does not have anything Maker specific.
+The "MySolidWorks Account" page<sup>[1]</sup> does not have anything Maker specific.
 
 ![](.images/am-i-guest.png)
 
+Under `Training` > `Catalog`:
+
+![](.images/access-levels.png)
+
+<small>`[1]`: https://my.solidworks.com > `Log In` > `Log in with 3DEXPERIENCE ID`</small>
 
 **Expected**
 
@@ -22,11 +27,7 @@ As a paying customer (Solidworks for Makers), I can:
 
    ![](.images/editing-sketches-blocked.png)
 
-- It does not seem logical where the limit between allowed and blocked material is (some of it is basic, like sketching)
-
-**Track**:
-
-- [ ] Going to get any response to [tweet on 10-Aug-22](https://twitter.com/shotduck7/status/1557346584475615232?s=20&t=QVq-cItwCGn3lkpqiQrBzQ)
+- It does not seem logical where the limit between allowed and blocked material is (some of it is basic, like "Editing Sketches").
 
 
 ## Focused Twitter or Chat support for SolidWorks for Makers
