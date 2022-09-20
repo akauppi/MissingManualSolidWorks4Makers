@@ -204,9 +204,33 @@ This workflow is fine. **It should just be clearly documented.** Now, I can imag
 
 >👍 Rule of Thumb. If you only want to work in the cloud, never, ever, select a local filename.
 
+
+### Collaboration
+
+The whole point of Dassault's cloud based "3DExperience" is working with teams. There are tools like [3Swym](...) and [Enovia](...) that Dassault uses for this.
+
+How this maps to Solidworks for Makers is covered under the [Collab](Collab/README.md) section.
+
+
 <!-- Editor's note:
    Further material (sections) would be placed here.
 -->
+
+## Selected questions
+
+Picked from [2]:
+
+- [Changing of GUI language](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:kKnaKWHGTPC4ut-q1X_9uA/iquestion:o4fpC_KOSKWKb3q-aNRosg) (15-Sep-2022)
+
+   <details><summary>Changing the language</summary>
+   >How can I change the language of the GUI in Solidworks connected? The software displays its menus in German but I would like to see them in English.
+   </details>
+   
+- **Asking for simulation**
+
+   [<img src=".images/q-simulation-14sep.png">](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:kKnaKWHGTPC4ut-q1X_9uA/iquestion:qhz625WNQny43H8r1N2xMg) (14-Sep-2022)
+
+   [<img src=".images/q-simulation-2.png">](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:kKnaKWHGTPC4ut-q1X_9uA/iquestion:r-iPjUlbQu6M4__CZDmLSg) (19-Sep-2022)
 
 ## Wishes to Solidworks
 
@@ -217,7 +241,7 @@ Feedback is available in a [separate file](Wishes%20to%20Solidworks.md).
 
 ### Discussion Forums
 
-- [MAKERS | Support community](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:kKnaKWHGTPC4ut-q1X_9uA)
+- [MAKERS | Support community](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:kKnaKWHGTPC4ut-q1X_9uA) [2]
 
   - mentioned [here](https://www.3ds.com/online-store/faq) (3DS Online store FAQ) > `Support` > `How can I get..`
 
@@ -246,6 +270,8 @@ Feedback is available in a [separate file](Wishes%20to%20Solidworks.md).
    "Solidworks Connected" was the earlier branding for "Solidworks for Makers" (or at least, they are somehow the same..)
    
 - [Solidworks online help](https://help.solidworks.com/2022/English/SolidWorks/sldworks/r_welcome_sw_online_help.htm) (Solidworks docs)
+
+- [3DExperience Tutorials](https://www.youtube.com/c/3DExperienceTutorials) (Youtube channel)
 
 ### Announcements, blogs
 
