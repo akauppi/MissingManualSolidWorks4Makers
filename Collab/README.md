@@ -5,129 +5,127 @@ This page describes:
 - enabling collaboration on your (cloud based) project
 - inviting members
 
+## Sources
+
+Dassault advices to follow:
+
+- ["Cross-Company Collaboration or how to invite a user on your platform without consuming your license keys?"](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:4/post:rHFgrLlQRr6w7xEwrVCYlA) (wiki, updated Feb 2019)
+
+The author also found:
+
+- ["3DEXPERIENCE Platform Administration: Adding users from outside your organization"](https://www.cati.com/blog/3dexperience-platform-administration-adding-users-from-outside-your-organization/) (blog, Mar 2021)
+
+   This is a more readable version, and more current.
+
+>Note: The process does apply to Solidworks for Makers as well, though the wiki page outdates its release by whole 2 years.
+
+
 ## Requirements
 
 We expect you to have a Solidworks for Makers assembly, which is saved to 3DExperience (i.e. online).
 
+- A friend maker (with Solidworks for Makers account) who's playing along
+   - email address to such person; the one associated with their 3DExperience ID.
+
+With these information you should be able to send an invite, and end up collaborating with the same Solidworks for Makers project.
+
+Let's start!
+
+
+<!-- disabled
 ## Dassault approach
 
-Solidworks for Makers has no tools for collaboration. One cannot even get a URL (that one could share with friends, as an invite) to an online project. There is no "Invite" or "Collaborate" menu item, anywhere. `File` > `Publish...` opens a file save dialog.
+Solidworks for Makers has no tools for collaboration. One cannot get a URL that one could share with friends, as an invite, to an online project. There is no "Invite" or "Collaborate" menu item, anywhere. `File` > `Publish...` looks inviting, but opens a file save dialog, instead.
 
-This is so pre-cloud days. On purpose.
+This is so pre-cloud days.
 
-The cloud is touched from the `3DExperience Launcher` - the same you use for launching SolidWorks.
-
-![](.images/swym-icon.png)
-
->Swym is for "See what you mean". The author remembers that by adding an "I" as in "I see what you mean.." ;)
-
-![](.images/swym-new.png)
-
-Go to `3DSwym Management`:
-
-![](.images/swym-management-menu.png)
-
-Let's create a community. Press `+ Community`.
-
-![](.images/swym-community-creation.png)
-
-![](.images/swym-community-creation-privacy-options.png)
-
-What are these?
-
->Dassault: This is where tooltips would help. Now, the user cannot really know what the consequences of the various options are.
-
-**Community visibility for employees**
-
-|||
-|---|---|
-|Public|
-|Private|
-|Secret|
-
-**Community visibility for external collaborators**
-
-|||
-|---|---|
-|Public|
-|Private|
-|Secret|
-|Disabled|
-
->In `[1]`, the person picks `Private`, `Private`. 
->
->I selected `Private`, `Secret` but don't exactly know what the "secret" means *(chime in if you do!)*.
-
----
-
-Press `Apply` and click on the community tab to the left.
-
-![](.images/swym-community-created.png)
-
-<!-- Disabled; this is for people already in your organization
-You can now start inviting people.
-
-![](.images/swym-invite-elvis.png)
-
->Now, be careful!!!
->
->The next step is **not** `Import members` or (person + icon). Instead, focus on the little arrow: 
+This (cloud collaboration) could be handled in the 3DExperience side of things (for Solidworks for Makers projects). Unfortunately, the current (Sep 2022) model is **not built for makers** but for larger companies, instead.
 -->
 
-Focus on the top right corner:
 
->![](.images/swym-share.png)
+## Steps
 
-This leads to the Right Stuff.
+### 0. Preparations (one time)
 
->Note: Only happened to notice this way, slow-replaying the [1] video.
+- 3DExperience Launcher > `Members` > `Configure Members Options`
+
+   Enable this:
+   
+   ![](.images/enable-invitations.png)
+
+<!-- ??
+   - Ask "J" to do the same, on their account
+-->
+
+- Enable also:
+
+   ![](.images/enable-invitations-from-members.png)
+
+- Click `(select default roles to assign)` <!-- this step is not mentions in the Dassault wiki page -->
+
+   - `View all` > check `3DEXPERIENCE SOLIDWORKS Professional`
+   - clear the `Assign License` checks
+
+      ![](.images/default-roles.png)
+      
+      Return to the `View selected roles only` page; it should now look like:
+      
+      ![](.images/default-roles-2.png)
+
+   - `Save`
+
+- Go to `Invite & Grant Roles` > `Invite members`.
+
+   ![](.images/invite-members.png)
+
+   - `User email`: fill the email of the invitee that is connected to their 3DExperience ID (or they'll register as such)
+   
+   - `User right`: `External`
+   
+      >This is explained in a third party [blog post](https://www.cati.com/blog/3dexperience-platform-administration-adding-users-from-outside-your-organization/) (Mar 2021), which says:
+      >
+      >>If the users are a part of your company and will be using your Roles you will select **Member** under User rights. If the users are bringing their own Roles to the Tenant, you will select **External**.
+
+      <!-- tbd. If we know where Dassault documents these, add a link here. -->
+
+- Proceed to `Roles`
+
+   >There are **loads** of roles under "available" - and these are not really evan available for you. We can stick with the `Available roles with licenses` section.
+   
+   Check `3DEXPERIENCE SOLIDWORKS Professional`.
+   
+   ![](.images/invite-roles.png)
+   
+   >Note: Ignore the red "not enough licenses". It seems like a UX glitch.
+   
+   - `Next` 
+   - `Invite`
+   
+**What you see**
+
+- ![](.images/invite-pending.png)
+
+**What the invitee receives**
+
+- They get an email:
+
+   ![](.images/invite-email.jpg)
+
+   The email is sent from `noreply@3dexperience.3ds.com` and "Dassault Systèmes". The title doesn't mention you at all, which is a bit.. disappointing.
+   
+Pressing the link leads to 3DExperience login page, or registration if the person is new to 3DExperience.
+
+*tbd. To be completed, once I have a partner to test this workflow with!*
 
 
-**Share with users**
 
-![](.images/swym-share-with-users.png)
+   
+   
+   
+   
 
-"Share this content with any user of your 3DEXPERIENCE Platform"
 
-Me: types "Elvis"
-
->No results
-
-Me: types "Peter"
-
->No results
-
-Me: types "Asko"
-
-Found.
-
-So... **engaging analysis mode**
-
-When Dassault writes "your 3DEXPERIENCE Platform", what they mean is "your 3DExperience organization" (or instance, or ...). This is understandable in a traditional company setup, where one would collaborate with other employees, and maybe customers and subcontractors as well. Not the world.
-
-The model does not bode well to makers. We want to collaborate potentially with anyone.
-
-So, let's see the other tab: "share by link"
-
-**Share by link**
-
-![](.images/swym-share-by-link.png)
-
-That link leads to a 3DExperience login page. 
-
-Pass this invite on in any media you like (twitter, email, ...). 
->Remember that the link only makes sense to other users of Solidworks for Makers. People with a "normal" Solidworks license won't be able to open the designs.*
-
-Once someone uses the link, they will:
-
-- need to authenticate with their 3DExperience ID. 
-
-- ...*tbd. describe the experience, from there side*
-
-*tbd. What do I see, when someone's used the link?*
-
-*tbd. How to actually share the design??*
-
+<!-- disabled
 
 ## Feelings...
 
@@ -138,7 +136,7 @@ It might be a suitable solution for enterprise companies, doing a lot of CAD. Fo
 Makers are often versed in collaboration tools. We judge these against Discord, and these tools *cannot* live to that standard.
 
 A slimmed down approach, leaving out discussion forums (because we already have them) but focusing on access rights management, would entice the author.
-
+-->
 
 ## References
 

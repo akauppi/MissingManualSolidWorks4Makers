@@ -11,3 +11,11 @@
 - [ ] ["How to share designs when audience isn't yet known?"](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:kKnaKWHGTPC4ut-q1X_9uA/iquestion:ueNeAjBZQA6qu8e_ZOAkkQ)
 
    This is the BREAKING request-for-help. Do I get any??????
+   
+   "Kiran Digidigi" suggested [here](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:kKnaKWHGTPC4ut-q1X_9uA/iquestion:Pib1ulBGT3OdCgybnyUFoQ) a wiki page [here](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:kKnaKWHGTPC4ut-q1X_9uA/wiki:q6h84l9NQbC4VwNIVFNNWg) that leads to [here](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:4/post:rHFgrLlQRr6w7xEwrVCYlA).
+   
+   - That page is from Feb 2019, preceding launch of Solidworks for Makers **by two years**. I don't think it's relevant.
+   
+     Also, having read that page I understand 0% of it...
+     
+     

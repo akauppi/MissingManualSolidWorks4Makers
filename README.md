@@ -68,6 +68,16 @@ Makers often run on more aged hardware than professional CAD people, so it's goo
 [source](https://www.solidworks.com/support/system-requirements)
 
 
+## Glossary
+
+Solidworks for Makers is built on top of company-focused products, and at places this shows as somewhat strange use of terminology. This list is intended to help you browse 3DExperience documentation and forums.
+
+|term|means|
+|---|---|
+|**platform**|The **account specific** cloud service, i.e. the instance of 3DExperience services that are **under your management**.|
+|**tenant**|Used at least [here](https://www.cati.com/blog/3dexperience-platform-administration-adding-users-from-outside-your-organization/) (article, Mar 2021). Likely an alias for "platform" (that Dassault uses). Are these same, or different concepts? *tbd.*|
+
+
 ## Learning resources
 
 The Internet has loads of Solidworks courses, but nothing much that focuses on SolidWorks for Makers, yet. This list is intended to help.

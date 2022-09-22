@@ -1,5 +1,38 @@
 # Wishes to Solidworks
 
+## Easier to invite/join a project
+
+I asked about this [here](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:kKnaKWHGTPC4ut-q1X_9uA/iquestion:ueNeAjBZQA6qu8e_ZOAkkQ).
+
+![](.images/forum-question.png)
+
+The answer points to [this wiki page](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:4/post:rHFgrLlQRr6w7xEwrVCYlA) (edited Feb 2019)
+
+>Note: Solidworks for Makers was released **two years** after the writing of that wiki page.
+
+Compare the model with that of Fusion 360. e.g. [here](https://knowledge.productdesignonline.com/article/33-can-you-share-a-fusion-360-project-with-others#:~:text=Solution%3A%201%201%20Open%20a%20Project%20in%20the,addresses%20of%20everyone%20you%27d%20like%20to%20invite.%20) (third party article, updated Feb 2021)
+
+The difference is that:
+
+- In Fusion 360, all registered Fusion 360 users are available to be sent invites
+- In 3DExperience, only the members of the "platform" (the one company?) are listed
+
+The collaboration model, and the needs for privacy protection are different in the Maker world than in the corporate world.
+
+Maker organizations would normally have just 1..few users, making them individual islands.
+
+### Suggestion for fixing this...
+
+For Solidworks for Makers product customers, allow sending invites **to any other Solidworks for Makers** user, by their user handle.
+
+This would be the same model as being used in Fusion 360, and I've heard no friction about it from there.
+
+The solution should:
+
+- be simple for the invitee to follow (just accept the invite)
+- be simple for the project owner (no need to do administrative dances)
+
+
 ## Am I guest??
 
 With the Solidworks Makers license, which learning material am I entitled to?
