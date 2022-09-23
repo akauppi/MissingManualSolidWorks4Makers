@@ -74,6 +74,8 @@ This (cloud collaboration) could be handled in the 3DExperience side of things (
 
    - `Save`
 
+### 1. Sending the invite
+
 - Go to `Invite & Grant Roles` > `Invite members`.
 
    ![](.images/invite-members.png)
@@ -115,14 +117,32 @@ This (cloud collaboration) could be handled in the 3DExperience side of things (
    
 Pressing the link leads to 3DExperience login page, or registration if the person is new to 3DExperience.
 
-*tbd. To be completed, once I have a partner to test this workflow with!*
+### 2. Preparations (one time; receiver side)
+
+The receiver of the invite also needs to prepare their 3DExperience settings, to allow *their* license to be used in the collaboration:
+
+![](.images/invitee-user-settings.png)
+
+Notice `3DEXPERIENCE SOLIDWORKS Professional` having `Restrict Usage to this Platform` off.
+
+*tbd. What is the default for Solidworks for Makers users/admins? Do they need to do this?*
+
+*tbd. Is the `3DEXPERIENCE SOLIDWORKS Professional` role enough, or is unrestricting needed also for some other roles? `Collaborative Business Innovator`, `Collaborative Industry Innovator`?*
+
+*tbd. Dassault wiki page states that switching on `Configure Member Options` > `Inivitations from administrators` is needed, for being able to unrestrict the roles. Is this true?*
+
+<!-- draft
+- As a Solidworks for Makers account admin, visit 3DDashboard > `Members` > `Configure Members Options`
+
+   - Enable `Invitations from administrators` 
+   
+      ![](.images/wiki-enable-invitations.jpg)
+-->
 
 
-
+*tbd. Does inviting mean that the person gets to see all my Solidworks for Makers projects, or is there a separate access management step, there?*
    
-   
-   
-   
+  
 
 
 <!-- disabled
