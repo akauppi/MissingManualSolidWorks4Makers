@@ -9,10 +9,10 @@ A comparison table similar to ["3DExperience Solidworks offers"](https://www.sol
 |feature|in/out|
 |---|---|
 |Configurations|&check;|
-|Static strength simulation|??|
+|**Visualizations**||
+|Ray-traced stills|&check;|
+|Ray-traced videos|??|
+|**Simulation**|
+|Static strength|out|
 
-
-### How to: see differences between CAD models
-
-- e.g. current work vs. last committed
 

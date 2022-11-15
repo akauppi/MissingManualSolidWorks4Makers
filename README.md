@@ -35,7 +35,7 @@ With Solidworks for Makers, you can store projects either locally or in the clou
 
 We skip this!
 
-There are some desperate writes by people not able to get the software running, in early 2022. This is unfortunate, but we overlook it. It's the responsibility of Dassault to make the experience better. (The author was able to install, in Aug 2022)
+There are some desperate writes by people not able to get the software running, <s>in early</s> *throughout* 2022. This is unfortunate, but we overlook it. It's the responsibility of Dassault to make the experience better. (The author was able to install, in Aug 2022)
 
 ## What you get
 
@@ -43,11 +43,15 @@ There are some desperate writes by people not able to get the software running, 
 
    It's able to work on local files, or files in the cloud.
 
+- Solidworks Visualize Connected
+
+   A separate binary, for creating professional level publications of your designs.
+
 - 3DExperience ID
 
    This is how you log into Solidworks documentation, support forums etc.
    
-   >Note: What you have is a "3DExperience ID". It is not a "Solidworks ID".
+   >Note: What you have is a "3DExperience ID". It is not a "Solidworks ID"; do not fill that field.
 
 ### Restrictions
 
@@ -67,6 +71,7 @@ Makers often run on more aged hardware than professional CAD people, so it's goo
 
 [source](https://www.solidworks.com/support/system-requirements)
 
+>NOTE! The author occasionally suffers from extremely slow sketch performance. This has been described in [TROUBLES](./TROUBLES.md). The reason for this hasn't been fully revealed, yet.
 
 ## Glossary
 
@@ -82,6 +87,8 @@ Solidworks for Makers is built on top of company-focused products, and at places
 
 The Internet has loads of Solidworks courses, but nothing much that focuses on SolidWorks for Makers, yet. This list is intended to help.
 
+>Note: There's an official help (see [References](#References)), but it's more of a reference book for understanding features tool-by-tool. The author recommends just diving into the tool, and seeing useful videos.
+
 ### Learning path
 
 With your "3DExperience ID", you should be able to log into a 3DExperience Dashboard:
@@ -96,7 +103,8 @@ At the time of writing, there are **only two** learning modules available.
 
 >Note the `3DEXPERIENCE R2022x v` drop-down menu on the page. Change it to match your version before viewing.
 
----
+<!-- hidden; this is better placed in a file of its own; too heavy early on and uncertain, too!
+--
 
 We can do better than that!!!
 
@@ -158,7 +166,7 @@ Also click:
 >Maybe these are intentionally "free" (access-wise) training courses throughout the Solidworks offering. But it means you hunting for knowledge for *Solidworks for Makers* is a hit-and-miss.
 
 The author has gone through the 63 (or so) courses. Direct links, lengths and comments are in another file: [MySolidWorks videos](Learning/MySolidWorks%20videos.md)
-
+-->
 
 ## Using Solidworks for Makers
 
@@ -168,9 +176,15 @@ Some tips and tricks that the author has learned.
 
 There is no "check for updates" menu, but there are updates.
 
-When you launch *Solidworks for Makers*, if you see this:
+Within the 3DExperience launcher, if you see this:
 
 ![](.images/sw-launch-update.png)
+
+>Hint: click the down arrow. Then **ignore** the progress meter ![](.images/fetching-progress.png). It does not indicate that the software is loading, just that it's fetching some data. (An hourglass icon would do the job better, the author feels..)
+>
+>In 2-3 seconds, you should see the version information.
+>
+>Note: At one point, the update information was **only available in the actual entry**, not the favourite link. <!-- REMOVE this comment if in some update you see it in the favourite! tbd. -->
 
 An **orange** arrow means there's an update available.
 
@@ -214,12 +228,17 @@ This workflow is fine. **It should just be clearly documented.** Now, I can imag
 
 >👍 Rule of Thumb. If you only want to work in the cloud, never, ever, select a local filename.
 
+<p />
 
-### Collaboration
+>Hint: Use the 3DExperience panel to the right to manage your loads, revisions and saves. It's always cloud based.
 
-The whole point of Dassault's cloud based "3DExperience" is working with teams. There are tools like [3Swym](...) and [Enovia](...) that Dassault uses for this.
+## Separate sections
 
-How this maps to Solidworks for Makers is covered under the [Collab](Collab/README.md) section.
+Some areas need more words, and pictures, to explain. That's why they are placed in their own README's:
+
+### [Collaboration](Collab/README.md)
+
+   The whole point of Dassault's cloud based "3DExperience" is working with teams. There are tools like [3DSwym](...) and [Enovia](https://discover.3ds.com/product-lifecycle-management-cloud-enovia-dassault-systemes) that Dassault uses for this.
 
 
 <!-- Editor's note:
@@ -241,10 +260,6 @@ Picked from [2]:
    [<img src=".images/q-simulation-14sep.png">](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:kKnaKWHGTPC4ut-q1X_9uA/iquestion:qhz625WNQny43H8r1N2xMg) (14-Sep-2022)
 
    [<img src=".images/q-simulation-2.png">](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:kKnaKWHGTPC4ut-q1X_9uA/iquestion:r-iPjUlbQu6M4__CZDmLSg) (19-Sep-2022)
-
-## Wishes to Solidworks
-
-Feedback is available in a [separate file](Wishes%20to%20Solidworks.md).
 
 
 ## Resources
@@ -279,7 +294,9 @@ Feedback is available in a [separate file](Wishes%20to%20Solidworks.md).
 
    "Solidworks Connected" was the earlier branding for "Solidworks for Makers" (or at least, they are somehow the same..)
    
-- [Solidworks online help](https://help.solidworks.com/2022/English/SolidWorks/sldworks/r_welcome_sw_online_help.htm) (Solidworks docs)
+- [Solidworks Connected Help](https://help.solidworks.com/2022/english/SWConnected/swdotworks/c_fundamentals.htm) (Solidworks docs)
+
+   This looks dry.
 
 - [3DExperience Tutorials](https://www.youtube.com/c/3DExperienceTutorials) (Youtube channel)
 

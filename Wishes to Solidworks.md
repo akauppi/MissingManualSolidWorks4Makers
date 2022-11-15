@@ -33,6 +33,17 @@ The solution should:
 - be simple for the project owner (no need to do administrative dances)
 
 
+## Visual diff between revisions
+
+SolidWorks for Makers contains revision control, in the form of 3DExperience. However, this **feature is incomplete unless there's an easy way to see .. what changed** (between any two designs or revisions). 
+
+Git provides this with `git diff`.
+
+Such changes can be presented also for graphical designs.
+
+Q: Does Solidworks Proper have this feature?  If yes, is it available for makers as well?  If not, ...really??   Wouldn't it be like, useful? :]
+
+
 ## Am I guest??
 
 With the Solidworks Makers license, which learning material am I entitled to?
@@ -72,3 +83,22 @@ The current official stage (listed [here](https://www.solidworks.com/solution/co
 - Most comments are about installation problems, or wanting their money back
 
 This laundry makes me feel I don't want to raise my problem here.
+
+
+## No need for multiple instances of SolidWorks for Makers
+
+Currently (Nov 2022), one can launch Solidworks for Makers multiple times. 
+
+### Why this may be a problem
+
+There is no benefit in being able to run multiple instances, in tandem. It's just a distraction.
+
+On slower machines, this can happen unintended, since there's a multiple seconds delay between launching the software and seeing the loading graphics.
+
+### Existing
+
+One can launch multiple SolidWorks for Makers instances.
+
+### Suggested
+
+The software would recognize an already running instance (or claim such lock) and bring that process in the front.
