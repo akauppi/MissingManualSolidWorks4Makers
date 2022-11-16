@@ -55,7 +55,9 @@ There are some desperate writes by people not able to get the software running, 
 
 ### Restrictions
 
-Files you work on can *only be opened by other Solidworks for Makers* instances, not the "other" Solidworks licenses.
+1. Files you work on can *only be opened by other Solidworks for Makers* instances, not the "other" Solidworks licenses.
+
+2. One cannot have both SolidWorks for Makers and another SolidWorks program of the same year version installed on the same computer, at the same time.
 
 ### Hardware and OS requirements
 
@@ -293,7 +295,11 @@ Picked from [2]:
 - [How to Create Your First Model in SOLIDWORKS Connected](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:kKnaKWHGTPC4ut-q1X_9uA/wiki:7q-yfe3BRLeTMCJnnj4wGQ) (Dassault wiki)
 
    "Solidworks Connected" was the earlier branding for "Solidworks for Makers" (or at least, they are somehow the same..)
-   
+
+- [GrabCAD Tutorials](https://grabcad.com/tutorials)
+
+   GrabCAD is a community for exchanging 3D models, and knowledge in general. Many of the tutorials are for SolidWorks.
+
 - [Solidworks Connected Help](https://help.solidworks.com/2022/english/SWConnected/swdotworks/c_fundamentals.htm) (Solidworks docs)
 
    This looks dry.

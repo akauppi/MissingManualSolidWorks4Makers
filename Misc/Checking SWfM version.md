@@ -1,4 +1,3 @@
-# Tidbits (unrelated pieces of information)
 
 ## How to check my SolidWorks for Makers Hotfix level locally
 
@@ -8,3 +7,8 @@ Windows Search > `Software Management` > (3DExperience icon) > `List installed c
 
 ![](.images/SwManagement-list.png)
 
+<!-- with SW itself
+`(?)` icon -> `About SOLIDWORKS...`
+
+![](.images/about-sw.png)
+-->
