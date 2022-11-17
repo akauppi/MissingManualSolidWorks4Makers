@@ -263,7 +263,6 @@ Picked from [2]:
 
    [<img src=".images/q-simulation-2.png">](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:kKnaKWHGTPC4ut-q1X_9uA/iquestion:r-iPjUlbQu6M4__CZDmLSg) (19-Sep-2022)
 
-
 ## Resources
 
 ### Discussion Forums
@@ -303,6 +302,8 @@ Picked from [2]:
 - [Solidworks Connected Help](https://help.solidworks.com/2022/english/SWConnected/swdotworks/c_fundamentals.htm) (Solidworks docs)
 
    This looks dry.
+
+   >Note: If reading this, pay attention to *Solidworks Premium* (includes e.g. simulation) vs. *Solidworks Professional* (does not). The sections about Premium features do NOT apply to Solidworks for Makers license.
 
 - [3DExperience Tutorials](https://www.youtube.com/c/3DExperienceTutorials) (Youtube channel)
 
