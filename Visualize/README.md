@@ -1,10 +1,11 @@
 # Solidworks Visualize Connected
 
-Solidworks for Makers includes Solidworks Visualize. This is a separate binary (Windows program) for creating ray-traced presentation material.
+Solidworks for Makers includes Solidworks Visualize Connected. This is a separate Windows native program for creating ray-traced presentation material.
 
-You can open Solidworks projects in Visualize, then beef the appearances etc. more than in Solidworks itself.
+You can open Solidworks projects in Visualize, then beef the appearances etc. more than in Solidworks itself, with:
 
-E.g. transparent appearances, ray-traced presentation stills.
+- transparent appearances
+- ray-traced presentation stills
 
 <!--
 *tbd. Make a full list of things not possible in Solidworks, but possible in SW Visualize.*
@@ -18,7 +19,9 @@ The sofware gets installed alongside Solidworks for Makers.
 
 3DExperience "compass" launcher > `Visualize`
 
->Hint: You can create a local shortcut, as for Solidworks proper.
+>Hint: You can create a local shortcut, as for Solidworks itself.
+
+---
 
 ## PROBLEM 1 - Where are my PROJECTS???
 
@@ -30,26 +33,48 @@ Launching Visualize I manage to see this:
 
 *Ignore the gooey project to the left; it's from a local harddisk*
 
-Take `Recent SOLIDWORKS Documents` 
+### Solution 1
 
->Note: There's only `Local` grouping here, but these seem like something I've worked on, **in the cloud**.
->
->Likely they are the locally cached copies of what's in 3DExperience
+By trial and error...
 
+- `Open Project`
 
----
+  - `My Content`
 
->**TO DASSAULT:**
->
->This is not great. You are touting about the 3DExperience everwhere you can, yet when one opens one of the tools, it's **completely unaware of the thing**. What's cooking??
+  ![](.images/visualize-my-content.png)
 
 ---
 
+## Visualize project
 
-## Layout
+Once you have opened the 3DExperience project (the model), you have an "untitled" project in Visualize.
+
+>![](.images/untitled.png)
+
+By using `File` > `Save with options`, one can save to 3DExperience (cloud), with revisions.
+
+>![](.images/save-with-options.png)
+
+
+## Workflow
+
+You'd now go on to change appearances, and get something far more realistic than this:
+
+![](.images/rgb.png)
+
+
+## Tips: Layout
 
 If working on a small screen (laptop), try stretching the panes. The author enjoys this setup:
 
 ![](.images/layout.png)
 
 
+
+## References
+
+- ["Installing SOLIDWORKS Visualize Connected"](https://help.solidworks.com/2022/English/Visualize/t_visualize_3DX_install_visualize_connected.htm) (Solidworks Visualize docs)
+
+<!--
+   >NOTE! Switch to the right version on that page! (2022 or 2023)
+-->

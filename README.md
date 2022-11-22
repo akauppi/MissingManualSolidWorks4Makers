@@ -39,13 +39,15 @@ There are some desperate writes by people not able to get the software running, 
 
 ## What you get
 
-- Solidworks Professional
+- Solidworks Professional Connected
 
    It's able to work on local files, or files in the cloud.
 
 - Solidworks Visualize Connected
 
-   A separate binary, for creating professional level publications of your designs.
+   A separate binary, for creating professional level publications of your designs. 
+   
+   See [Visualize/README.md](./Visualize/README.md)
 
 - 3DExperience ID
 
