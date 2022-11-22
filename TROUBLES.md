@@ -39,6 +39,7 @@ Evidence
 
 Obviously, one wants to work on the larger screen, though.
 
+<!-- likely not relevant
 - Visit Intel HD Graphics settings
 
    ![](.images/lenovo-intel-gpu-settings.png)
@@ -46,3 +47,17 @@ Obviously, one wants to work on the larger screen, though.
    The refresh rate was 59p for some reason. Changing it to 60p took the slow-down away (and one can continue using external monitor).
    
    Try this.
+-->
+
+ - **Re-install** Solidworks for Makers
+
+   - Control Panel > `Add or Remove Applications`
+      - Uninstall `Dassault Systemes SOLIDWORKS 3DEXPERIENCE R2022x`
+
+   - Restart
+
+   - Re-launch the application from the 3DExperience taskbar icon
+
+      This will re-install the whole program, with latest Hotfix.
+
+   For the author, this seems to have fixed the sluggish sketch problem. **knock wood**
