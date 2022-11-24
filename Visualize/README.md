@@ -11,6 +11,8 @@ You can open Solidworks projects in Visualize, then beef the appearances etc. mo
 *tbd. Make a full list of things not possible in Solidworks, but possible in SW Visualize.*
 -->
 
+Before reading further, consider seeing this [marketing video](https://www.solidworks.com/media/3dexperience-solidworks-visualize-connected-biodapt) (5:49) that nicely lays out the tool and possible workflows.
+
 ## Installation
 
 The sofware gets installed alongside Solidworks for Makers.
@@ -78,3 +80,5 @@ If working on a small screen (laptop), try stretching the panes. The author enjo
 <!--
    >NOTE! Switch to the right version on that page! (2022 or 2023)
 -->
+
+   
