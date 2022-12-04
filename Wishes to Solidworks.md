@@ -33,17 +33,6 @@ The solution should:
 - be simple for the project owner (no need to do administrative dances)
 
 
-## Visual diff between revisions
-
-SolidWorks for Makers contains revision control, in the form of 3DExperience. However, this **feature is incomplete unless there's an easy way to see .. what changed** (between any two designs or revisions). 
-
-Git provides this with `git diff`.
-
-Such changes can be presented also for graphical designs.
-
-Q: Does Solidworks Proper have this feature?  If yes, is it available for makers as well?  If not, ...really??   Wouldn't it be like, useful? :]
-
-
 ## Am I guest??
 
 With the Solidworks Makers license, which learning material am I entitled to?
@@ -102,3 +91,33 @@ One can launch multiple SolidWorks for Makers instances.
 ### Suggested
 
 The software would recognize an already running instance (or claim such lock) and bring that process in the front.
+
+
+## [Online] Proper support forum
+
+The existing Swym tool is not nearly sufficient to be used as a support tool. It doesn't seem to be meant for that, either!
+
+Features the author misses:
+
+- Ability to collect related issues (reports) together.
+
+   Not having this causes a never-ending "I cannot install" set of messages, many of which are incidents of the same underlying cause.
+
+- Ability to **link to an incident** and **watch changes to it**
+
+   These are trivial, in a system such as GitHub Issues, and many others. We want to be notified when relevant info shows up, **not polling for updates manually!**
+
+- Abilitity to **tag** issues
+
+- Ability to **vote up** - also comments
+
+   Ability to vote up comments allows a **community** to arise, which helps each other. Current state is that one can like the original message (it's a messaging platform, NOT a ticketing platform!), but not any later contributions.
+
+There's NO VALUE in not bringing a ticketing solution to Solidwork for Makers.
+
+This is NOT A CRITICISM to the Swym platform. It's just being used wrong, and it doesn't stretch to the expectations (and valid needs) of customers. 
+
+DO NOT EXTEND the platform. That's unnecessary, since loads of good ticketing platforms already exist.
+
+>*Whisper:* The Solidworks for Makers business model is different from what Dassault is used to. It's a direct business-to-consumer model instead of the one going through resellers. Perhaps this is behind the lack of a well functioning support forum (measured by the lifetime of tickets; and issues actually getting resolved). It's not an excuse to not do anything about the problem!!!
+
