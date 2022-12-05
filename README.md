@@ -1,5 +1,16 @@
 # Solidworks for Makers - Missing manual
 
+>Note: There is more to this repo than this entry README.
+>
+>- `Visualize` is about Visualize Connected
+>- `Misc`
+>- `Learning`
+>- `Tips`
+>- `FRs` is about Feature Requests (read: Missing Features) to Dassault
+>- `Wishes to Solidworks`
+>
+>The repo needs all this to be better organized, at some point. Currently, it's more of a notepad.
+
 <!-- tbd. make a model of a manual book (in SolidWorks), picture here :)
 -->
 

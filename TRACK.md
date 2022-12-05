@@ -8,6 +8,10 @@
 
 ## How to share?
 
+>![](.images/share-by-link-considered.png)
+>
+>Appreciated, but keep looking whether anything actually changes..
+
 - [ ] ["How to share designs when audience isn't yet known?"](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:kKnaKWHGTPC4ut-q1X_9uA/iquestion:ueNeAjBZQA6qu8e_ZOAkkQ)
 
    This is the BREAKING request-for-help. Do I get any??????
