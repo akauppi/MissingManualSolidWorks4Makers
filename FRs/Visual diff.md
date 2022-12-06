@@ -48,26 +48,38 @@ If I proceed selecting the same project twice (in the hope of being asked about 
 
 ## Workaround
 
-Since 3DExperience documents get cached locally, there's likely some way around the current lack of cloud-awareness..
+**Situation**
 
-### Brute Force approach
+We have a revision `A.1` that we know of, and want to see what's changed to `B.1`.
 
-- Load a revision from 3DExperience (let's say B.1)
-   - `File` > `Save as New ...` > `Save to This PC` 
-   - Append the revision (`B.1`) to the filename; save to some temporary folder
+To do this, we create a *local* copy of the `B.1` because the existing SolidWorks Maker can show diffs between projects. In other words, we extract the revision(s) to compare to into local copies.
 
-- Repeat for another revision
+**Steps**
 
->Note: Not sure whether this leads anywhere... Wasn't able to see a diff, but this workflow is *not* what I expect from a cloud-native tool (kind of) anyhow.
->
->So, wishing Dassault would bring an actual, visual diff, in 2024. Or. Some. Year...
+- Using the 3DExperience side panel, change to the revision (`B.1`) you wish to compare with
+- `File` > `Save as New ...` > `Save to This PC` 
+   - click `Save as copy and continue`
+   - append the revision (`B.1`) to the filename; save to some temporary folder
+- Change back to your reference revision.
+- `Tools` > `Compare` > `{Document|Features|Geometry}` <sub>any will do</sub>
+   - pick the project name for `Reference document`
+   - pick the local copy for `Modified document`
+   - check `Features` and `Geometry` - or what you fancy
 
-<!-- whisper
+      ![](.images/setting-up-workaround.png)
 
-The local caches are available in `C:\Users\{userid}\AppData\DassaultSystemes\3DEXPERIENCE\My Work({...})`. You can load the latest checked out revision from there (but not compare multiple revisions of the same model, which is the point...)
+   - press `Run Comparison`
 
-![](.images/cached-filename.png)
--->
+![](.images/after-diff.png)
+
+You can see in red that the modified revision has removed material at the edges.
+
+To the right, you see the features removed/added between the revisions.
+
+To see geometry changes, click the small tab.
+
+>This is obviously just a naive small sample, but it does show the workflow how one can, with R2022x Solidworks Maker see visual and feature-wise differences between two revisions of the same project.
+
 
 ## Wish to Dassault... (UX)
 
