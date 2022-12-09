@@ -8,13 +8,16 @@
 >- `Tips`
 >- `FRs` is about Feature Requests (read: Missing Features) to Dassault
 >- `Wishes to Solidworks`
+>- `TROUBLES` - check this if you are experiencing Strange Things.
 >
 >The repo needs all this to be better organized, at some point. Currently, it's more of a notepad.
+>
+>[Issues](https://github.com/akauppi/MissingManualSolidWorks4Makers/issues) are used for describing and discussing things that seem like Solidworks bugs.
 
 <!-- tbd. make a model of a manual book (in SolidWorks), picture here :)
 -->
 
-In 2021, Solidworks for Makers was introduced. Instead of multiple thousands of Euros<sup>[1]</sup> per year, the CAD product is now finally in the reach of hobbyists, at a mere ~120 Eur / year.
+In 2021, Solidworks for Makers was introduced. Instead of multiple thousands of Euros<sup>[1]</sup> per year, the CAD product is now finally in the reach of hobbyists, at a mere 99 <!-- was ~120 in 2022; continuation seems to be 99 --> EUR / year.
 
 This is the **FIRST PROFESSIONAL GRADE CAD PRODUCT** available for hobbyists.
 
@@ -222,7 +225,15 @@ Luckily, you can install McMaster Carr integration also on SolidWorks. 👏
 
 ![](.images/mcmastercarr.png)
 
+TL;DR:
 
+- Visit [https://www.mcmaster.com/solidworksaddin]
+- Download
+- Run the installer
+- Restart Solidworks Maker
+- The Add-in should now be visible in the side panel
+
+>Note! After the R2023x (hotfix 0.6) update, the author lost the add-in. Checking whether it needs to be updated for R2023x compatibility...
 
 
 ### Saving to the cloud
