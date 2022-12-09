@@ -61,33 +61,3 @@ Obviously, one wants to work on the larger screen, though.
       This will re-install the whole program, with latest Hotfix.
 
    For the author, this seems to have fixed the sluggish sketch problem. **knock wood**
-
-
-## Cloud files not shown by R2023x
-
-This... is a sad one.
-
-**Expectation**
-
-If the cloud-based product launches, I have access to my cloud (3DExperience) data. From the first millisecond. Otherwise, it's not launched.
-
-**Actual**
-
-Until the product flashes a "Connected" banner ![](.images/connected-banner.png), the program doesn't know there's cloud. This may take **30 seconds** after the UI is otherwise up!!!
-
-The problem is, during this time the UI allows going to `File` > `Open` and seeing the `Open from 3DExperience` button dimmed!
-
-**Suggestion**
-
-Please either (preferred!) make the detection of the cloud id faster (such shouldn't take more than ~100ms in the API layer, right??) or **delay the enabling of the UI** until cloud status is known.
-
-The current situation is confusing.
-
-|||
-|---|---
-|Launched the product|0 s|
-|Seeing the loading banner|8 s|
-|UI actionable (*seeming* start time)|35 s|
-|"Connected" banner seen (*real* start time!)|61 s|
-
-*Timings on a Lenovo Thinkpad X230 (it's old!), 100Mbps Internet connection. Physical location: Finland.*
