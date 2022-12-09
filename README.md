@@ -217,6 +217,8 @@ An update behaves like a full fledged reinstall. Reserve some time.
 
 ### Setting up McMaster-Carr
 
+>NOTE!! As of Dec 2022, the McMaster Carr plugin **will not work with R2023x** Solidworks. See `TRACK.md` for details.
+
 Fusion 360 relies heavily on McMaster Carr catalog of off-the-shelf parts. SolidWorks integrates PartSupply instead (open assembly, then `Insert from PartSupply`), but its filtering options etc. did not convince the author.
 
 Luckily, you can install McMaster Carr integration also on SolidWorks. 👏

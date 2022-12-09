@@ -25,15 +25,17 @@ The sofware gets installed alongside Solidworks for Makers.
 
 ---
 
-## PROBLEM 1 - Where are my PROJECTS???
+## INITIAL PROBLEM - Where are my PROJECTS???
 
 I have a Solidworks project stored in 3DExperience (= cloud). Would like to visualize it. Easy, right??
 
 Launching Visualize I manage to see this:
 
->![](.images/launch-visualize.png)
+>![](.images/launch-visualize-2023.png)
 
-*Ignore the gooey project to the left; it's from a local harddisk*
+*Ignore the gooey project; it's from earlier tries*
+
+Pane to the left seems to indicate I'm connected; but there is no data!
 
 ### Solution 1
 
@@ -57,6 +59,9 @@ By using `File` > `Save with options`, one can save to 3DExperience (cloud), wit
 
 >![](.images/save-with-options.png)
 
+<p />
+
+>Note: It is a bit unclear, what is the relationship of a Visual project vs. a Solidworks model. This is *exactly* why this repo exists. Contributions welcome!!
 
 ## Workflow
 
@@ -75,10 +80,7 @@ If working on a small screen (laptop), try stretching the panes. The author enjo
 
 ## References
 
-- ["Installing SOLIDWORKS Visualize Connected"](https://help.solidworks.com/2022/English/Visualize/t_visualize_3DX_install_visualize_connected.htm) (Solidworks Visualize docs)
+- [Solidworks Visualize Help](https://help.solidworks.com/2023/English/Visualize/HelpViewerDS.aspx?version=2023&prod=Visualize) (Solidworks Visualize docs; 2023)
 
-<!--
-   >NOTE! Switch to the right version on that page! (2022 or 2023)
--->
+   - ["Installing SOLIDWORKS Visualize Connected"](https://help.solidworks.com/2023/English/Visualize/t_visualize_3DX_install_visualize_connected.htm)
 
-   
