@@ -9,6 +9,10 @@ You can open Solidworks projects in Visualize, then beef the appearances etc. mo
 
 <!--
 *tbd. Make a full list of things not possible in Solidworks, but possible in SW Visualize.*
+
+tbd. A diagram showing how 3DExperience projects fit to Visualize projects.  Ssomething like:
+
+    3DExperience model  --\>  Visualize project
 -->
 
 Before reading further, consider seeing this [marketing video](https://www.solidworks.com/media/3dexperience-solidworks-visualize-connected-biodapt) (5:49) that nicely lays out the tool and possible workflows.
@@ -77,6 +81,9 @@ If working on a small screen (laptop), try stretching the panes. The author enjo
 ![](.images/layout.png)
 
 
+## Training material
+
+- ["SolidWorks Visualize 2020 Introduction"](https://www.youtube.com/watch?v=OwIIEloXfeg) (Youtube, Mar 2021, 10:50)
 
 ## References
 
@@ -84,3 +91,6 @@ If working on a small screen (laptop), try stretching the panes. The author enjo
 
    - ["Installing SOLIDWORKS Visualize Connected"](https://help.solidworks.com/2023/English/Visualize/t_visualize_3DX_install_visualize_connected.htm)
 
+- ["Render Them Speechless with SOLIDWORKS Visualize Connected | Exploring 3DEXPERIENCE Works"](https://youtu.be/24ni9RsRmNM?t=211) (Youtube, Jan 2021, 40:02)
+
+   >Link starts at 3:32 (the beef)

@@ -186,6 +186,35 @@ Also click:
 The author has gone through the 63 (or so) courses. Direct links, lengths and comments are in another file: [MySolidWorks videos](Learning/MySolidWorks%20videos.md)
 -->
 
+## Getting started
+
+Many users find the cloud/native dance Solidworks has done confusing. And rightly so - it's *unconventional* to say the least.
+
+>Solidworks note: In UX, *unconventional* means simply **bad**. Especially in web... Grr.
+
+![](.images/getting-started.png)
+
+Here's the launch site. Hope you have reached it!
+
+The "compass" (which doesn't look anything like a compass; don't ask me..) - the round glossy thing top left - is where things start.
+
+It **depends which part of it you press**. Yeah. (though the different parts don't have hover effects that would show them as individual buttons... Shutting down my web UX brain. Shut.)
+
+Click the `3D` side of it. You get to this programs menu (there's nothing "3D" about it - try shutting down that section of the brain, as well. Just. Obey!!)
+
+So you see the `My Roles`? Brilliant.
+
+Now. The **same repeats** with the `SOLIDWORKS Connected` button. 
+
+Click its right side (where the `v` is). You'll see the version as in the screenshot, but nothing more.
+
+Click its **left** side - and you are off the launching the program.
+
+OH. MY. 
+
+![](https://thumbs.gfycat.com/HilariousPettyHen-max-1mb.gif)
+
+
 ## Using Solidworks for Makers
 
 Some tips and tricks that the author has learned.
