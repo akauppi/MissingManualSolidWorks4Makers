@@ -85,6 +85,8 @@ If working on a small screen (laptop), try stretching the panes. The author enjo
 
 - ["SolidWorks Visualize 2020 Introduction"](https://www.youtube.com/watch?v=OwIIEloXfeg) (Youtube, Mar 2021, 10:50)
 
+- [SOLIDVIS - Solidworks & Visualize Tutorials](https://www.youtube.com/@solidvis-solidworksvisuali4211) (Youtube channel)
+
 ## References
 
 - [Solidworks Visualize Help](https://help.solidworks.com/2023/English/Visualize/HelpViewerDS.aspx?version=2023&prod=Visualize) (Solidworks Visualize docs; 2023)
