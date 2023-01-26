@@ -43,3 +43,6 @@
 
 >Note: The 2.0.10.0 installer succeeds - just that the add-in is not recognized by Solidworks.
 
+>Added Jan 26th 2023: 
+>- mention of R2023 incompatibility has vanished from the web page. However, the version is still the same (2.0.10.0) and doesn't work with R2023x.
+>
