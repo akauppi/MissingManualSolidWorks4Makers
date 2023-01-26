@@ -61,3 +61,7 @@ Obviously, one wants to work on the larger screen, though.
       This will re-install the whole program, with latest Hotfix.
 
    For the author, this seems to have fixed the sluggish sketch problem. **knock wood**
+
+   >Based on [this message](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:kKnaKWHGTPC4ut-q1X_9uA/iquestion:B-vC2yneRLKWHwgVyWYwCQ/answer:swym%3Aprd%3AR1132100503382%3Aqnaanswer%3A2rQE8mbjS8yGuFgxnhH1Kg) it might not work.
+
+   

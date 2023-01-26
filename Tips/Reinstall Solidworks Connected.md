@@ -4,8 +4,8 @@ The official instructions: ["Clean re-installation of the 3DEXPERIENCE SOLIDWORK
 
 These are way too elaborate. Try first:
 
-- Uninstall `Dassault Systemes SOLIDWORKS 3DEXPERIENCE R2022x`
+- Uninstall `Dassault Systemes SOLIDWORKS 3DEXPERIENCE R2023x`
 - Restart
-- Launch from the tasbar icon (or visiting 3DExperience online)
+- Launch from the taskbar icon (or visiting 3DExperience online)
 
 This works for the author.
