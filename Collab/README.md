@@ -157,29 +157,47 @@ Notice `3DEXPERIENCE SOLIDWORKS Professional` having `Restrict Usage to this Pla
 *tbd. Does inviting mean that the person gets to see all my Solidworks for Makers projects, or is there a separate access management step, there?*
    
   
+## Sharing Collaboration Spaces
+
+The realm of granting access to your data is per collaboration space.
+
+In order to share data with someone, you must have first invited them, as described above. The invite itself doesn't grant them any access, but you can proceed to granting such access already while the invite is in `pending` state.
+
+Access is handled in the `3DSpace` "application".
+
+### Grant rights in `3DSpace`
+
+Go to your `3DSpace` "application", online.
+
+- Choose a collaboration space to share.
+
+   - From the `v` dropdown, `👤+ Add members`
+
+      ![](.images/add-member-to-space.png)
+
+      |role|means|
+      |---|---|
+      |`Contributor`|Read-only access|
+      |`Author`|Edit access|
+      |`Leader & Owner`|(likely you don't want to share these)|
+
+      <!-- tbd. The author has no idea what `Assign credentials with a given organization` means. #help
+      -->
+
+      >Note that `Contributor` doesn't mean what it says. A person with this role won't be able to contribute.
 
 
-## Opening a model in a browser
+## Questions
 
-As a cloud-centric system, Solidworks for Makers allows one to view - and even edit - the models saved to the "3DExperience" (i.e. cloud), via a few options.
+### Where do I see whom I've shared stuff with?
 
-### 3DPlay
+One way seems to be `3DSpace` > `(i)` tab:
 
-<!-- tbd. describe what 3DPlay is -->
+![](.images/3dspace-list-access.png)
 
-### 3DNavigate
+You can now juggle through the spaces, and list of people who have access updates on the right.
 
-<!-- tbd. describe what 3DPlay is -->
-
-### xDesign
-
-<!-- tbd. describe what xDesign is -->
-
->Note: Rendering is not necessarily 100% as you see it in Solidworks for Makers. Check before you share material this way that is qualifies your needs.
->
->For example, here's a small model with some extranous part instances showing online:
->
->![](.images/3de-render-almost.png)
+>Good enough. If you know of a better method, suggest one. :)
 
 
 ## References

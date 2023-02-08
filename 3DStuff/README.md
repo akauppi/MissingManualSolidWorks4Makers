@@ -22,6 +22,14 @@ Still here?
 
    ![](.images/playplayplay.png)
 
+- [Opening in a browser](./Opening%20in%20browser.md)
+
+   Great to collaborate over browser, not needing Solidworks native tool to be installed on everyone.
+
+   However.
+
+   - Rendering is not consistent.
+
 - [Speed (lack of)](./Speed%20(lack%20of).md)
 
   Cloud services can be reactive, but this one just isn't.
