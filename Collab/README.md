@@ -21,6 +21,9 @@ The author also found:
 
 >Note: The process does apply to Solidworks for Makers as well, though the wiki page outdates its release by whole 2 years.
 
+<span>+</span> Discussed here (Feb 2023):
+
+- ["Sharing Access to a Collaborative Space"](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:kKnaKWHGTPC4ut-q1X_9uA/iquestion:8uyanJu_Q3u764mmSTXirw) (Makers \| Support forum)
 
 ## Requirements
 
@@ -28,8 +31,9 @@ We expect you to have a Solidworks for Makers assembly, which is saved to 3DExpe
 
 - A friend maker (with Solidworks for Makers account) who's playing along
    - email address to such person; the one associated with their 3DExperience ID.
+   - they should already have started using the account, i.e. done initial log-ins with an 3DExperience ID.
 
-With these information you should be able to send an invite, and end up collaborating with the same Solidworks for Makers project.
+With these information you should be able to send an invite, and end up collaborating in the same Solidworks for Makers project.
 
 Let's start!
 
@@ -47,44 +51,38 @@ This (cloud collaboration) could be handled in the 3DExperience side of things (
 
 ## Steps
 
-<!-- disabled; maybe there are no preparations any more; the UI has changed. AK8-Feb-23
 ### 0. Preparations (one time)
--->
 
-### 0. Open the Members
+- 3DExperience Launcher > `Members Control Center` (it's an app, in the left panel..)
+   
+   ![](.images/members-control-center.png)
 
-- 3DExperience Launcher<sup>1</sup> > close existing "app" from the top right `x`; you should see a `Members` tab; click it
+   - Enable these:
+   
+      ![](.images/enable-invitations.png)
+
+      ![](.images/enable-invitations-from-members.png)
+
+   - Click `(select default roles to assign)` <!-- this step is not mentions in the Dassault wiki page -->
+
+      - `View all` > check `3DEXPERIENCE SOLIDWORKS Professional`
+      - clear the `Assign License` checks
+
+         ![](.images/default-roles.png)
+      
+         Return to the `View selected roles only` page; it should now look like:
+      
+         ![](.images/default-roles-2.png)
+
+      - `Save`
+
+
+### 1. Sending the invite
+
+Close any "apps" open in the 3DExperience window (top right `x`). You should see a `Members` tab; click it.
 
    ![](.images/members-tab.png)
 
-  <sup>`1`</sup>: This URL depends on your "platform". The author doesn't know where to fetch it.
-
-<!-- no longer there; disabled
-- `Configure Members Options`
-   Enable this:
-   
-   ![](.images/enable-invitations.png)
-
-- Enable also:
-
-   ![](.images/enable-invitations-from-members.png)
-
-- Click `(select default roles to assign)` <!_-- this step is not mentions in the Dassault wiki page --_>
-
-   - `View all` > check `3DEXPERIENCE SOLIDWORKS Professional`
-   - clear the `Assign License` checks
-
-      ![](.images/default-roles.png)
-      
-      Return to the `View selected roles only` page; it should now look like:
-      
-      ![](.images/default-roles-2.png)
-
-   - `Save`
-
--->
-
-### 1. Sending the invite
 
 - `👤+ Invite members`
 
@@ -100,7 +98,7 @@ This (cloud collaboration) could be handled in the 3DExperience side of things (
 
 - Proceed to `Roles`
 
-   >There are **loads** of roles under "available" - and these are not really evan available for you. We can stick with the `Available roles with licenses` section.
+   >We can stick with the `Available roles with licenses` section.
    
    Check `3DEXPERIENCE SOLIDWORKS Professional`.
    
