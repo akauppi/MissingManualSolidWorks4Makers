@@ -22,7 +22,6 @@ Still here?
 
    ![](.images/playplayplay.png)
 
+- [Speed (lack of)](./Speed%20(lack%20of).md)
 
-
-
-
+  Cloud services can be reactive, but this one just isn't.
