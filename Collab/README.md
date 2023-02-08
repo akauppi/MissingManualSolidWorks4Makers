@@ -129,9 +129,9 @@ Pressing the link leads to 3DExperience login page, or registration if the perso
 
 ### 2. Preparations (one time; receiver side)
 
->**Note!!!** The UI has changed; this section likely DOES NOT APPLY ANY MORE. Confirm, and comment out? `#tbd`
+The receiver of the invite **also** needs to prepare their 3DExperience settings, to allow *their* license to be used in the collaboration:
 
-The receiver of the invite also needs to prepare their 3DExperience settings, to allow *their* license to be used in the collaboration:
+<!-- Old info?  Not finding the screenshot's view, any more.
 
 ![](.images/invitee-user-settings.png)
 
@@ -139,21 +139,21 @@ Notice `3DEXPERIENCE SOLIDWORKS Professional` having `Restrict Usage to this Pla
 
 *tbd. What is the default for Solidworks for Makers users/admins? Do they need to do this?*
 
-*tbd. Is the `3DEXPERIENCE SOLIDWORKS Professional` role enough, or is unrestricting needed also for some other roles? `Collaborative Business Innovator`, `Collaborative Industry Innovator`?*
+*tbd. Is the `3DEXPERIENCE SOLIDWORKS Professional` role enough, or is unrestricting needed also for some other roles? `3DSwymer`, `Collaborative Industry Innovator`?*
+-->
 
+<!--
 *tbd. Dassault wiki page states that switching on `Configure Member Options` > `Inivitations from administrators` is needed, for being able to unrestrict the roles. Is this true?*
+-->
 
-<!-- draft
-- As a Solidworks for Makers account admin, visit 3DDashboard > `Members` > `Configure Members Options`
+- Visit `Members Control Center` > `Members` > `Configure Members Options` <sub>icon with a person and a gear</sub>
 
    - Enable `Invitations from administrators` 
    
       ![](.images/wiki-enable-invitations.jpg)
--->
 
+>Note: We could check whether this step really is necessary. Dassault instructions from 2019 (and an online comment from 2023) say it is.
 
-*tbd. Does inviting mean that the person gets to see all my Solidworks for Makers projects, or is there a separate access management step, there?*
-   
   
 ## Sharing Collaboration Spaces
 
