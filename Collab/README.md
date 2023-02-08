@@ -9,7 +9,9 @@ This page describes:
 
 Dassault advices to follow:
 
-- ["Cross-Company Collaboration or how to invite a user on your platform without consuming your license keys?"](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:4/post:rHFgrLlQRr6w7xEwrVCYlA) (wiki, updated Feb 2019)
+- ["Cross-Company Collaboration or how to invite a user on your platform without consuming your license keys?"](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:4/post:rHFgrLlQRr6w7xEwrVCYlA) (wiki, updated Feb 2019; requires authentication by 3DExperience ID)
+
+   >Note: Starting some time between Sep 2022 and Feb 2023, the `Configure Members Options` is no longer visible in a Maker customer's `Members Control System`. This might be a good change, but it also means Dassault should stop referencing that document, since its steps cannot be replicated. /AK
 
 The author also found:
 
@@ -45,23 +47,29 @@ This (cloud collaboration) could be handled in the 3DExperience side of things (
 
 ## Steps
 
+<!-- disabled; maybe there are no preparations any more; the UI has changed. AK8-Feb-23
 ### 0. Preparations (one time)
+-->
 
-- 3DExperience Launcher > `Members` > `Configure Members Options`
+### 0. Open the Members
 
+- 3DExperience Launcher<sup>1</sup> > close existing "app" from the top right `x`; you should see a `Members` tab; click it
+
+   ![](.images/members-tab.png)
+
+  <sup>`1`</sup>: This URL depends on your "platform". The author doesn't know where to fetch it.
+
+<!-- no longer there; disabled
+- `Configure Members Options`
    Enable this:
    
    ![](.images/enable-invitations.png)
-
-<!-- ??
-   - Ask "J" to do the same, on their account
--->
 
 - Enable also:
 
    ![](.images/enable-invitations-from-members.png)
 
-- Click `(select default roles to assign)` <!-- this step is not mentions in the Dassault wiki page -->
+- Click `(select default roles to assign)` <!_-- this step is not mentions in the Dassault wiki page --_>
 
    - `View all` > check `3DEXPERIENCE SOLIDWORKS Professional`
    - clear the `Assign License` checks
@@ -74,9 +82,11 @@ This (cloud collaboration) could be handled in the 3DExperience side of things (
 
    - `Save`
 
+-->
+
 ### 1. Sending the invite
 
-- Go to `Invite & Grant Roles` > `Invite members`.
+- `👤+ Invite members`
 
    ![](.images/invite-members.png)
 
@@ -87,8 +97,6 @@ This (cloud collaboration) could be handled in the 3DExperience side of things (
       >This is explained in a third party [blog post](https://www.cati.com/blog/3dexperience-platform-administration-adding-users-from-outside-your-organization/) (Mar 2021), which says:
       >
       >>If the users are a part of your company and will be using your Roles you will select **Member** under User rights. If the users are bringing their own Roles to the Tenant, you will select **External**.
-
-      <!-- tbd. If we know where Dassault documents these, add a link here. -->
 
 - Proceed to `Roles`
 
@@ -114,10 +122,16 @@ This (cloud collaboration) could be handled in the 3DExperience side of things (
    ![](.images/invite-email.jpg)
 
    The email is sent from `noreply@3dexperience.3ds.com` and "Dassault Systèmes". The title doesn't mention you at all, which is a bit.. disappointing.
+
+>Note: The author is not aware of an invite link (a URL) that could be passed to the recipient via *any* communication channels. This would be a nice feature, since when one invites another maker, there's likely some communication going on, already.
+> 
+> Likewise, there is no support for "allow any other Solidworks for Maker customer to join". Unfortunate. It would be nice, if the engagement can be started also from the collaborator's side.
    
 Pressing the link leads to 3DExperience login page, or registration if the person is new to 3DExperience.
 
 ### 2. Preparations (one time; receiver side)
+
+>**Note!!!** The UI has changed; this section likely DOES NOT APPLY ANY MORE. Confirm, and comment out? `#tbd`
 
 The receiver of the invite also needs to prepare their 3DExperience settings, to allow *their* license to be used in the collaboration:
 
@@ -144,19 +158,6 @@ Notice `3DEXPERIENCE SOLIDWORKS Professional` having `Restrict Usage to this Pla
    
   
 
-
-<!-- disabled
-
-## Feelings...
-
-The author is not sold on the 3DSwym approach.
-
-It might be a suitable solution for enterprise companies, doing a lot of CAD. For hobbyists, the interface is awkward, and Yet Another Tool to know.
-
-Makers are often versed in collaboration tools. We judge these against Discord, and these tools *cannot* live to that standard.
-
-A slimmed down approach, leaving out discussion forums (because we already have them) but focusing on access rights management, would entice the author.
--->
 
 ## Opening a model in a browser
 
