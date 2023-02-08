@@ -23,26 +23,3 @@
      Also, having read that page I understand 0% of it...
      
 
-## McMaster Carr add-in for R2023x
-
->I'm sorry, our add-in is not yet supported by Solidworks 23 yet. We have a team working on the add-in and it should be available early next year. 
->
-><sub>*Source: McMaster Carr support, over email, 8-Dec-22*</sub>
-
-- [ ] Wait a bit. Try out in late January...
-
-   https://www.mcmaster.com/solidworksaddin/
-
-   - Add-in `2.0.10.0` (visible in the downloaded `.msi` name) is NOT enough for R2023x
-
-   - Install the McMaster add-in.
-
-   - Relaunch Solidworks Maker
-
-   - **Expected**: A McMaster leaf is available in the right tool panel; the add-in is listed under `Tools` > `Add-ins`
-
->Note: The 2.0.10.0 installer succeeds - just that the add-in is not recognized by Solidworks.
-
->Added Jan 26th 2023: 
->- mention of R2023 incompatibility has vanished from the web page. However, the version is still the same (2.0.10.0) and doesn't work with R2023x.
->
