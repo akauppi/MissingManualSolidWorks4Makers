@@ -96,3 +96,7 @@ Complement it with a `Peek from Server` that would show changes if I were to pul
 
 - [Running the Compare Utility](https://help.solidworks.com/2023/english/swconnected/swutilities/t_running_the_compare_utility.htm) (SW Connected docs) <sub>`[1]`</sub>
 
+<!-- #whisper
+
+Person called @Joy Garon works for Dassault - and could know about this. see -> https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:kKnaKWHGTPC4ut-q1X_9uA/iquestion:RGtPxdgcSRyR5qeyRusSuQ/answer:swym%3Aprd%3AR1132100503382%3Aqnaanswer%3AMFvfi68gS3mt0R0EpRU3_g/comment:swym%3Aprd%3AR1132100503382%3Aqnaanswer%3AMFvfi68gS3mt0R0EpRU3_g%3Acomment%3AuX6-z5E2R2yljN8n5ppgeQ
+-->

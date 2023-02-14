@@ -131,21 +131,6 @@ Pressing the link leads to 3DExperience login page, or registration if the perso
 
 The receiver of the invite **also** needs to prepare their 3DExperience settings, to allow *their* license to be used in the collaboration:
 
-<!-- Old info?  Not finding the screenshot's view, any more.
-
-![](.images/invitee-user-settings.png)
-
-Notice `3DEXPERIENCE SOLIDWORKS Professional` having `Restrict Usage to this Platform` off.
-
-*tbd. What is the default for Solidworks for Makers users/admins? Do they need to do this?*
-
-*tbd. Is the `3DEXPERIENCE SOLIDWORKS Professional` role enough, or is unrestricting needed also for some other roles? `3DSwymer`, `Collaborative Industry Innovator`?*
--->
-
-<!--
-*tbd. Dassault wiki page states that switching on `Configure Member Options` > `Inivitations from administrators` is needed, for being able to unrestrict the roles. Is this true?*
--->
-
 - Visit `Members Control Center` > `Members` > `Configure Members Options` <sub>icon with a person and a gear</sub>
 
    - Enable `Invitations from administrators` 
@@ -153,6 +138,16 @@ Notice `3DEXPERIENCE SOLIDWORKS Professional` having `Restrict Usage to this Pla
       ![](.images/wiki-enable-invitations.jpg)
 
 >Note: We could check whether this step really is necessary. Dassault instructions from 2019 (and an online comment from 2023) say it is.
+
+- On one's own user id, click the `(i)` (info) icon.
+
+   This shows up:
+
+   ![](.images/invitee-user-settings.png)
+
+   >Notice `3DEXPERIENCE SOLIDWORKS Professional` having `Restrict Usage to this Platform` off.
+
+   **Likely**, you will need to lift the restrictions on `3DSwymer` and `Collaborative Industry Innovator` roles, too.
 
   
 ## Sharing Collaboration Spaces
