@@ -131,7 +131,7 @@ Pressing the link leads to 3DExperience login page, or registration if the perso
 
 The receiver of the invite **also** needs to prepare their 3DExperience settings, to allow *their* license to be used in the collaboration:
 
-- Visit `Members Control Center` > `Members` > `Configure Members Options` <sub>icon with a person and a gear</sub>
+- Visit `Members Control Center` > `Members` > `Configure Members Options`
 
    - Enable `Invitations from administrators` 
    

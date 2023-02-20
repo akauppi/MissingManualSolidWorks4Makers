@@ -81,13 +81,15 @@ Makers often run on more aged hardware than professional CAD people, so it's goo
 
 ||Solidworks recommends|What works|
 |---|---|---|
-|CPU|"64-bit; Intel or AMD"|Lenovo X230 (2012)|
+|CPU|"64-bit; Intel or AMD"|Lenovo X230 (2012); Core i73520M|
 |RAM|16 GB|12 GB <sub>but would recommend 16 GB</sub>|
 |Graphics|"Certified cards and drivers"|your integrated Intel-based likely works|
 |Windows|10 or 11, 64-bit|Windows 10 Home|
 |SSD|"recommended"|yes! you want to have SSD<p />Installation needs some 30GB free (`Program Files/Dassault/**` is 17.3 GB)|
 
 [source](https://www.solidworks.com/support/system-requirements)
+
+>Note. A comment from Dassault suggests that [AVX instruction set](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions) is a "prerequisite for apps included in the Makers package". Luckily, this covers CPUs back to 2012.
 
 >NOTE! The author occasionally suffers from extremely slow sketch performance. This has been described in [TROUBLES](./TROUBLES.md). The reason for this hasn't been fully revealed, yet.
 
